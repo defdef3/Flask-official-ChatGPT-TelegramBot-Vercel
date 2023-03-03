@@ -39,7 +39,7 @@ class ChatGPT:
 
         conversation.append({"role": "assistant", "content": response['choices'][0]['message']['content']})
         
-        print("AI回答內容：")        
+        print("AI：")        
         print(response['choices'][0]['message']['content'].strip())
 
 
